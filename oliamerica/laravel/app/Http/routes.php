@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
 Route::get('/Nosotros', function () {
     return view('nosotros');
 });
@@ -41,3 +42,4 @@ Route::get('/Products', function () {
 Route::get('/Contact', function () {
     return view('contact');
 });
+

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace oliamerica\Http\Controllers\Auth;
 
-use App\User;
+use oliamerica\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use oliamerica\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
