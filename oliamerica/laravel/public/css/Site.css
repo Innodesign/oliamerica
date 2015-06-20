@@ -150,7 +150,8 @@ p
 }
 .noticia
 {
-    padding:2em 5em 0 5em;
+    /*padding:2em 5em 0 5em;*/
+    margin: 3em 0;
 }
 .subtitulo
 {
@@ -167,6 +168,22 @@ p
     padding: 0.5em;
     margin: 0.5em 0 0.1em 0;
 }
+.tituloEntrada
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -25%;
+    margin: 0;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    background: #689F38;
+    padding: 0 1em;
+    margin: 0 1.05em;
+    color: #f2f2f2;
+}
+
+
 
 /* Thumbnail Box */
 .caption h4 {

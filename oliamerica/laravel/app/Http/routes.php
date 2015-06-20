@@ -34,7 +34,7 @@ Route::get('/AboutUs', function () {
     return view('about_us');
 });
 Route::get('/News', function () {
-    return view('news');
+    return view('noticias');
 });
 Route::get('/Products', function () {
     return view('products');
