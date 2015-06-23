@@ -7,7 +7,7 @@
 </div>
 <div class="container contenidoNoticias" style="padding-top:3em; margin-bottom:3em">
     <div class="col-md-4 noticia">
-        <a href="">
+        <a href="/Entrada">
             <img src="/img/blog.png" class="imgNoticia" alt="" />
             <div class="tituloEntrada">
                 <h3>Titulo Noticia</h3>    
@@ -15,7 +15,7 @@
         </a>
     </div>
     <div class="col-md-4 noticia">
-        <a href="">
+        <a href="/Entrada">
             <img src="/img/blog.png" class="imgNoticia" alt="" />
             <div class="tituloEntrada">
                 <h3>Titulo Noticia</h3>    
@@ -23,7 +23,7 @@
         </a>
     </div>
     <div class="col-md-4 noticia">
-        <a href="">
+        <a href="/Entrada">
             <img src="/img/blog.png" class="imgNoticia" alt="" />
             <div class="tituloEntrada">
                 <h3>Titulo Noticia</h3>    
@@ -31,7 +31,7 @@
         </a>
     </div>
     <div class="col-md-4 noticia">
-        <a href="">
+        <a href="/Entrada">
             <img src="/img/blog.png" class="imgNoticia" alt="" />
             <div class="tituloEntrada">
                 <h3>Titulo Noticia</h3>    
@@ -39,7 +39,7 @@
         </a>
     </div>
     <div class="col-md-4 noticia">
-        <a href="">
+        <a href="/Entrada">
             <img src="/img/blog.png" class="imgNoticia" alt="" />
             <div class="tituloEntrada">
                 <h3>Titulo Noticia</h3>    
@@ -47,7 +47,7 @@
         </a>
     </div>
     <div class="col-md-4 noticia">
-        <a href="">
+        <a href="/Entrada">
             <img src="/img/blog.png" class="imgNoticia" alt="" />
             <div class="tituloEntrada">
                 <h3>Titulo Noticia</h3>    

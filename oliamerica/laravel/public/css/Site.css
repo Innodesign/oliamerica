@@ -119,6 +119,11 @@ p
     font-size: 3em;
     padding: 0 0.5em;
 }
+.contenidoImagen
+{
+    text-align: center;
+    padding: 1.5em 0;
+}
 .contenidoNoticias
 {
     /*background: url(/img/fondo1.jpg) no-repeat ;
