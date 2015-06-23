@@ -42,4 +42,6 @@ Route::get('/Products', function () {
 Route::get('/Contact', function () {
     return view('contact');
 });
-
+Route::get('/Entrada', function () {
+    return view('entrada');
+});
