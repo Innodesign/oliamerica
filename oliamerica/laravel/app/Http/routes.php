@@ -14,7 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
-
+Route::get('/Login', function () {
+    return view('login');
+});
 Route::get('/Nosotros', function () {
     return view('nosotros');
 });
@@ -44,4 +46,15 @@ Route::get('/Contact', function () {
 });
 Route::get('/Entrada', function () {
     return view('entrada');
+});
+
+
+Route::get('/Admin', function () {
+    return view('admin.index');
+});
+Route::get('/Admin/Crear', function () {
+    return view('admin.crear_noticia');
+});
+Route::get('/Admin/Ver', function () {
+    return view('admin.ver_noticia');
 });
