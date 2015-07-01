@@ -56,7 +56,7 @@
             auto: true,
             //adaptativeHeighgt: true,
             //mode: 'fade',
-            captions: true
+            captions: false
         });
     });
     $(document).ready(function () {

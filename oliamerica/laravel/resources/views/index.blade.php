@@ -10,13 +10,14 @@
             <li><img src="/img/slider/slider4.png" title="Proceso de Destilacion" /></li>
         </ul>
     </div>
-    <div class="col-md-4" style="margin-top:1.5em">
+    <div class="col-md-4" style="margin-top:1.5em; padding:1em">
         
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/IWSQq_6CTSI" frameborder="0" allowfullscreen></iframe style="margin-top:1em">
     </div>
 </div>
-<div class="row" style="margin-bottom:2em">
-    <div class="col-md-4 bordeado">
+<div class="row" style="">
+    
+    <div class="col-md-4 col-xs-12 bordeado">
         <h3 class="subtituloLanding text-center">Con el respaldo de las Certificaciones:</h3>
     </div>
     <div class="col-md-2 col-xs-6 text-center">
@@ -25,7 +26,7 @@
     <div class="col-md-2 col-xs-6 text-center">
         <img src="/img/certificaciones/gs1sf_opt.png" alt="" style="margin-top:1.5em" />
     </div>
-    <div class="col-md-4" style="margin-top:-9em">
+    <div class="col-md-4 col-xs-12 premioNacional" style="">
         <h3 class="subtituloLanding text-center">PREMIO NACIONAL A LAS MYPE 2013</h3>
         <img src="/img/premio.jpg" style="width:100%" height="195px" alt="" />
     </div>
