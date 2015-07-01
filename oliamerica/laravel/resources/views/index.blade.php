@@ -4,10 +4,10 @@
 <div class="row" style="margin-top:4em">
     <div class="col-md-8" style="margin-top:1.5em">
         <ul class="bxslider">
-            <li><img src="/img/slider/slider5.png" title="Proceso de Destilacion" /></li>
-            <li><img src="/img/slider/slider6.png" title="Proceso de Destilacion" /></li>
-            <li><img src="/img/slider/slider7.png" title="Proceso de Destilacion" /></li>
-            <li><img src="/img/slider/slider8.png" title="Proceso de Destilacion" /></li>
+            <li><img src="/img/slider/slider1.png" title="Proceso de Destilacion" /></li>
+            <li><img src="/img/slider/slider2.png" title="Proceso de Destilacion" /></li>
+            <li><img src="/img/slider/slider3.png" title="Proceso de Destilacion" /></li>
+            <li><img src="/img/slider/slider4.png" title="Proceso de Destilacion" /></li>
         </ul>
     </div>
     <div class="col-md-4" style="margin-top:1.5em">

@@ -144,6 +144,10 @@ p
     font-size: 1em;
     font-weight: bold;
 }
+.enlaceMenu:hover
+{
+    background: #333;
+}
 .enlaceNone
 {
     list-style: none;

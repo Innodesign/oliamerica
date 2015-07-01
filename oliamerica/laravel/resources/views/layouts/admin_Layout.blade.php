@@ -13,7 +13,7 @@
 <body>
     <div class="row" style="background:#689F38; margin-right:0">
         <div class="col-md-2 menuPrincipal" style="padding:0">
-            <nav class="navbar navbar-default" role="navigation">
+            <nav class="navbar navbar-default" role="navigation" style="border:0">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header" style="background:#fff;width:100%">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -22,24 +22,24 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="/Admin">
                         <img src="/img/logo.png" class="logo" alt="Oliamerica">
                     </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse" style="background:#689F38; width:100%">
-                    <ul class="nav navbar-nav">
-                        <li><a href="/EstadoCuenta"><i class="fa fa-line-chart"></i> Crear Noticia</a></li>
-                        <li><a href="/Pagos"><i class="fa fa-credit-card"></i> Ver Noticias</a></li>
-                        <li><a href="/Pagos"><i class="fa fa-credit-card"></i> Cerrar Sesion</a></li>
+                    <ul class="nav navbar-nav" style="margin-top:2em; margin-left:1em">
+                        <li><a href="/Admin/Crear"><i class="fa fa-pencil"></i> Crear Noticia</a></li>
+                        <li><a href="/Admin/Ver"><i class="fa fa-bars"></i> Ver Noticias</a></li>
+                        <li><a href="/Logout"><i class="fa fa-key"></i> Cerrar Sesión</a></li>
                     </ul>
 
                 </div><!-- /.navbar-collapse -->
             </nav>
         </div>
         <div class="col-md-10 contenidoAdmin">
-            <div class="row" style="padding:0.5em; border-bottom: 5px #689F38 solid;">
-                <h1>Panel de Administracion OLIAMERICA</h1>
+            <div class="row" style="padding:0.43em 0 0 2em; border-bottom: 5px #689F38 solid; background:#565555">
+                <h1 style="color:#f8f8f8;">Panel de Administración OLIAMERICA</h1>
             </div>
             <div class="body-content animated slideInUp">
                @yield('content')

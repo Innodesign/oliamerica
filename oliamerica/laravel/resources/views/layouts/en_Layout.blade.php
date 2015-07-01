@@ -12,7 +12,7 @@
     <link href="css/animate.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background: #2d2d2d">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background: #E8CB18">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -26,10 +26,10 @@
             </div>
             <div class="navbar-collapse collapse pull-right" style="margin-top:1.2em">
                 <ul class="nav navbar-nav">
-                    <li><a href="/AboutUs" class="enlaceMenu">ABOUT US</a></li>
-                    <li><a href="/News" class="enlaceMenu">NEWS</a></li>
-                    <li><a href="/Products" class="enlaceMenu">PRODUCTS</a></li>
-                    <li><a href="/Contact" class="enlaceMenu">CONTACT</a></li>
+                    <li><a href="/AboutUs" class="enlaceMenu" style="color:#fff">ABOUT US</a></li>
+                    <li><a href="/News" class="enlaceMenu" style="color:#fff">NEWS</a></li>
+                    <li><a href="/Products" class="enlaceMenu" style="color:#fff">PRODUCTS</a></li>
+                    <li><a href="/Contact" class="enlaceMenu" style="color:#fff">CONTACT</a></li>
                     
                 </ul>
             </div>
