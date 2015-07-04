@@ -12,7 +12,7 @@
     <link href="css/animate.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background:#2d2d2d">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background:#E8CB18">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -26,10 +26,10 @@
             </div>
             <div class="navbar-collapse collapse pull-right" style="margin-top:1.2em">
                 <ul class="nav navbar-nav">
-                    <li><a href="/Nosotros" class="enlaceMenu">NOSOTROS</a></li>
-                    <li><a href="/Noticias" class="enlaceMenu">NOTICIAS</a></li>
-                    <li><a href="/Productos" class="enlaceMenu">PRODUCTOS</a></li>
-                    <li><a href="/Contacto" class="enlaceMenu">CONTACTO</a></li>
+                    <li><a href="/Nosotros" class="enlaceMenu" style="color:#fff">NOSOTROS</a></li>
+                    <li><a href="/Noticias" class="enlaceMenu" style="color:#fff">NOTICIAS</a></li>
+                    <li><a href="/Productos" class="enlaceMenu" style="color:#fff">PRODUCTOS</a></li>
+                    <li><a href="/Contacto" class="enlaceMenu" style="color:#fff">CONTACTO</a></li>
                     
                 </ul>
             </div>
@@ -56,7 +56,7 @@
             auto: true,
             //adaptativeHeighgt: true,
             //mode: 'fade',
-            captions: true
+            captions: false
         });
     });
     $(document).ready(function () {

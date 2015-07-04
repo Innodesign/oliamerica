@@ -41,7 +41,7 @@
         <img src="/img/catalogo.jpg" alt="" style="width:100%" />
     </div>
 </div>
-<div class="row mensaje">
+<!-- <div class="row mensaje">
     <div class="col-md-8 col-md-offset-2">
         <p>
             In March 2015 our manager, Ing. Julia Carrillo Yapuchura placed second nationally in the "First National Women
@@ -50,6 +50,6 @@
         </p>
     </div>
     <div class="col-md-2"></div>
-</div>
+</div> -->
 
 @endsection

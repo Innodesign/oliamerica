@@ -10,6 +10,7 @@
     <div class="carousel slide" id="myCarousel">
         <div class="carousel-inner">
             <div class="item active">
+                <h2 style="padding:0 0 0 2em">ACEITUNAS NEGRAS EN SALMUERA</h2>
                 <ul class="thumbnails">
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
@@ -17,8 +18,8 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Aceitunas Verdes</h4>
-                                <p>Rodajas</p>
+                                <h4>Aceitunas negras enteras en salmuera</h4>
+                                <!-- <p>Rodajas</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
@@ -29,8 +30,8 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Aceitunas Verdes</h4>
-                                <p>Deshuesadas</p>
+                                <h4>Aceitunas negras deshuesadas en salmuera</h4>
+                                <!-- <p>Deshuesadas</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
@@ -41,13 +42,13 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Ascolana verde</h4>
-                                <p>Estilo Siciliano</p>
+                                <h4>Aceitunas negras en rodajas en salmuera</h4>
+                                <!-- <p>Estilo Siciliano</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
                     </li>
-                    <li class="col-sm-3 enlaceNone">
+                    <!-- <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
@@ -58,10 +59,11 @@
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div><!-- /Slide1 -->
             <div class="item">
+                <h2 style="padding:0 0 0 2em">ACEITUNAS VERDES EN SALMUERA</h2>
                 <ul class="thumbnails">
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
@@ -69,8 +71,8 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Sevillana Verdes</h4>
-                                <p>Estilo Español</p>
+                                <h4>Aceitunas verdes en salmuera</h4>
+                                <!-- <p>Estilo Español</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
@@ -81,8 +83,8 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Aceitunas Verdes</h4>
-                                <p>Rellenas</p>
+                                <h4>Aceitunas verdes deshuesadas en salmuera</h4>
+                                <!-- <p>Rellenas</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
@@ -93,13 +95,13 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Ascolana Negra</h4>
-                                <p>Natural</p>
+                                <h4>Aceitunas verdes en rodajas en salmuera</h4>
+                                <!-- <p>Natural</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
                     </li>
-                    <li class="col-sm-3 enlaceNone">
+                    <!-- <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
@@ -110,10 +112,11 @@
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div><!-- /Slide2 -->
             <div class="item">
+                <h2 style="padding:0 0 0 2em">ACEITUNAS RELLENAS EN SALMUERA</h2>
                 <ul class="thumbnails">
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
@@ -121,8 +124,8 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Aceituna Negra</h4>
-                                <p>Deshuesada</p>
+                                <h4>Aceitunas rellenas con pimiento en salmuera</h4>
+                                <!-- <p>Deshuesada</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
@@ -133,8 +136,8 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Aceituna Negra</h4>
-                                <p>Rodajas</p>
+                                <h4>Aceitunas rellenas con rocoto en salmuera</h4>
+                                <!-- <p>Rodajas</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
@@ -145,8 +148,8 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>Sevillana Negra</h4>
-                                <p>Natural</p>
+                                <h4>Aceitunas rellenas con ajo en salmuera</h4>
+                                <!-- <p>Natural</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>
@@ -157,8 +160,8 @@
                                 <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>xxxx</h4>
-                                <p>Natural</p>
+                                <h4>Aceitunas rellenas con castaña en salmuera</h4>
+                                <!-- <p>Natural</p> -->
                                 <a class="btn btn-mini" href="#">» Ver</a>
                             </div>
                         </div>

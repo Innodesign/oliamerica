@@ -14,7 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
-
+Route::get('/Login', function () {
+    return view('login');
+});
 Route::get('/Nosotros', function () {
     return view('nosotros');
 });
@@ -34,7 +36,7 @@ Route::get('/AboutUs', function () {
     return view('about_us');
 });
 Route::get('/News', function () {
-    return view('news');
+    return view('noticias');
 });
 Route::get('/Products', function () {
     return view('products');
@@ -42,7 +44,22 @@ Route::get('/Products', function () {
 Route::get('/Contact', function () {
     return view('contact');
 });
+Route::get('/Entrada', function () {
+    return view('entrada');
+});
 
 
+<<<<<<< HEAD
 Route::resource('Noticia', 'NoticiaController');
 
+=======
+Route::get('/Admin', function () {
+    return view('admin.index');
+});
+Route::get('/Admin/Crear', function () {
+    return view('admin.crear_noticia');
+});
+Route::get('/Admin/Ver', function () {
+    return view('admin.ver_noticia');
+});
+>>>>>>> 9059002dabd5137777814f9b16ecba9b0d7b0b4c
