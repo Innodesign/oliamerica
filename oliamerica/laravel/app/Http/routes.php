@@ -43,3 +43,6 @@ Route::get('/Contact', function () {
     return view('contact');
 });
 
+
+Route::resource('Noticia', 'NoticiaController');
+
