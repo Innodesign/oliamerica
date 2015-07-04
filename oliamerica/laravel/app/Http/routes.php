@@ -11,6 +11,8 @@
 |
 */
 
+use oliamerica\Http\Controllers\Admin;
+
 Route::get('/', function () {
     return view('index');
 });
@@ -49,17 +51,20 @@ Route::get('/Entrada', function () {
 });
 
 
-<<<<<<< HEAD
-Route::resource('Noticia', 'NoticiaController');
+//Route::resource('Noticia', 'NoticiaController');
 
-=======
 Route::get('/Admin', function () {
     return view('admin.index');
 });
-Route::get('/Admin/Crear', function () {
-    return view('admin.crear_noticia');
+
+Route::group(['prefix' => 'Admin'], function () {
+    Route::group(['prefix' => 'Noticia'], function ()    {
+        Route::get('Crear', ['uses' => 'Admin\NoticiaController@crear']);
+        Route::post('Guardar', ['uses' => 'Admin\NoticiaController@guardar']);
+    });
 });
+
+
 Route::get('/Admin/Ver', function () {
     return view('admin.ver_noticia');
 });
->>>>>>> 9059002dabd5137777814f9b16ecba9b0d7b0b4c

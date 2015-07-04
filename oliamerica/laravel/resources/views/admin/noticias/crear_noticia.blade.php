@@ -2,13 +2,15 @@
 
 @section('content')
 
+
+
 <div class="row text-center" style="margin-right:0">
     <h3>Nueva Noticia</h3>
     <p>Por favor, complete los siguientes campos para crear una nueva noticia.</p>
     <hr>
 </div>
 <div class="row" style="margin-top:2em; margin-right:0">
-    <form class="formNoticia">
+    <form class="formNoticia" method="post" action="/Admin/Noticia/Guardar" enctype="multipart/form-data"> 
         <div class="form-group">
             <label for="titulo">Titulo</label>
             <input type="text" class="form-control" name="titulo" style="width:50%">
@@ -19,10 +21,11 @@
         </div>
         <div class="form-group">
             <label for="descripcion">Descripcion</label>
-            <textarea rows="4" class="form-control" cols="12" style="resize:none"></textarea>
+            <textarea rows="4" class="form-control" name="descripcion" cols="12"></textarea>
         </div>
-        <button>Crear</button>
+        <button type="submit">Crear</button>
     </form>
 
 </div>
+
 @endsection
