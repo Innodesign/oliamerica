@@ -2,15 +2,13 @@
 
 @section('content')
 
-
-
 <div class="row text-center" style="margin-right:0">
     <h3>Nueva Noticia</h3>
     <p>Por favor, complete los siguientes campos para crear una nueva noticia.</p>
     <hr>
 </div>
 <div class="row" style="margin-top:2em; margin-right:0">
-    <form class="formNoticia" method="post" action="/Admin/Noticia/Guardar" enctype="multipart/form-data"> 
+    <form class="formNoticia" method="post" action="/admin/noticia/guardar" enctype="multipart/form-data"> 
         <div class="form-group">
             <label for="titulo">Titulo</label>
             <input type="text" class="form-control" name="titulo" style="width:50%">

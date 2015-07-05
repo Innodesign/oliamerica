@@ -29,9 +29,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse" style="background:#689F38; width:100%">
                     <ul class="nav navbar-nav" style="margin-top:2em; margin-left:1em">
-                        <li><a href="/Admin/Crear"><i class="fa fa-pencil"></i> Crear Noticia</a></li>
-                        <li><a href="/Admin/Ver"><i class="fa fa-bars"></i> Ver Noticias</a></li>
-                        <li><a href="/Logout"><i class="fa fa-key"></i> Cerrar Sesión</a></li>
+                        <li><a href="/admin/noticia/crear"><i class="fa fa-pencil"></i> Crear Noticia</a></li>
+                        <li><a href="/admin/noticia"><i class="fa fa-bars"></i> Ver Noticias</a></li>
+                        <li><a href="/logout"><i class="fa fa-key"></i> Cerrar Sesión</a></li>
                     </ul>
 
                 </div><!-- /.navbar-collapse -->
