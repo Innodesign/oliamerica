@@ -16,44 +16,44 @@ use oliamerica\Http\Controllers\Admin;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/Login', function () {
+Route::get('/login', function () {
     return view('login');
 });
-Route::get('/Nosotros', function () {
+Route::get('/nosotros', function () {
     return view('nosotros');
 });
-Route::get('/Noticias', function () {
+Route::get('/noticias', function () {
     return view('noticias');
 });
-Route::get('/Productos', function () {
+Route::get('/productos', function () {
     return view('productos');
 });
-Route::get('/Contacto', function () {
+Route::get('/contacto', function () {
     return view('contacto');
 });
-Route::get('/Home', function () {
+Route::get('/home', function () {
     return view('en_index');
 });
-Route::get('/AboutUs', function () {
+Route::get('/aboutUs', function () {
     return view('about_us');
 });
-Route::get('/News', function () {
+Route::get('/news', function () {
     return view('noticias');
 });
-Route::get('/Products', function () {
+Route::get('/products', function () {
     return view('products');
 });
-Route::get('/Contact', function () {
+Route::get('/contact', function () {
     return view('contact');
 });
-Route::get('/Entrada', function () {
+Route::get('/entrada', function () {
     return view('entrada');
 });
 
 
 //Route::resource('Noticia', 'NoticiaController');
 
-Route::get('/Admin', function () {
+Route::get('/admin', function () {
     return view('admin.index');
 });
 
