@@ -32,7 +32,7 @@
                     <ul class="nav navbar-nav" style="margin-top:2em; margin-left:1em">
                         <li><a href="/admin/noticia/crear"><i class="fa fa-pencil"></i> Crear Noticia</a></li>
                         <li><a href="/admin/noticia"><i class="fa fa-bars"></i> Ver Noticias</a></li>
-                        <li><a href="/logout"><i class="fa fa-key"></i> Cerrar Sesión</a></li>
+                        <li><a href="/auth/logout"><i class="fa fa-key"></i> Cerrar Sesión</a></li>
                     </ul>
 
                 </div><!-- /.navbar-collapse -->

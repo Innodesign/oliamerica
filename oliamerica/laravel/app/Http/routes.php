@@ -13,11 +13,9 @@
 
 use oliamerica\Http\Controllers\Admin;
 
-Route::get('/', function () {
+Route::get('/',['middleware' => 'lenguaje', function () {
     return view('index');
-});
-Route::get('/login', function () {
-    return view('login');
+
 });
 Route::get('/nosotros', function () {
     return view('nosotros');
@@ -53,13 +51,32 @@ Route::get('/entrada', function () {
 
 //Route::resource('Noticia', 'NoticiaController');
 
-Route::get('/admin', function () {
-    return view('admin.index');
+Route::get('/ingles', function () {
+    Session::put('lenguaje','en');
+    return redirect('/');
 });
 
-Route::group(['prefix' => 'admin'], function () {
+Route::get('/espaniol',function(){
+    Session::put('lenguaje','es');
+    return redirect('/');
+});
+
+Route::group(['prefix' => 'auth'],function(){
+    Route::get('login',function(){
+        return view('admin.auth.login');
+    });
+    Route::post('login',['uses' => 'SeguridadController@login']);
+    Route::get('logout',['uses' => 'SeguridadController@logout']);
+});
+
+Route::group(['prefix' => 'admin','middleware' => 'auth'],function () {
+    Route::get('', function () {
+        return view('admin.noticia.index');
+    });
     Route::group(['prefix' => 'noticia'], function ()    {
         Route::get('crear', ['uses' => 'Admin\NoticiaController@crear']);
+        Route::get('editar/{id}', ['uses' => 'Admin\NoticiaController@editar']);
+        Route::post('editar/{id}', ['uses' => 'Admin\NoticiaController@actualizar']);
         Route::get('', ['uses' => 'Admin\NoticiaController@index']);
         Route::post('guardar', ['uses' => 'Admin\NoticiaController@guardar']);
     });

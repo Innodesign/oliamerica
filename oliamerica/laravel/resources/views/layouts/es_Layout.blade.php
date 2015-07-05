@@ -34,8 +34,8 @@
                 </ul>
             </div>
         </div>
-        <a class="btnSpanish" href="/"><img class="imgIdioma" src="/img/spain.png"></a>
-        <a class="btnEnglish" href="/Home"><img class="imgIdioma" src="/img/england.png"></a>
+        <a class="btnSpanish" href="/espaniol"><img class="imgIdioma" src="/img/spain.png"></a>
+        <a class="btnEnglish" href="/ingles"><img class="imgIdioma" src="/img/england.png"></a>
     </div>
     <div class="body-content animated slideInUp">
        @yield('content')

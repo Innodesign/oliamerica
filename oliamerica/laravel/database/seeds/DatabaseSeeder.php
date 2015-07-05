@@ -16,6 +16,12 @@ class DatabaseSeeder extends Seeder
 
         // $this->call('UserTableSeeder');
 
+        DB::table('users')->insert([
+            'name' => 'oliamerica',
+            'email' => 'admin@oliamerica.com',
+            'password' => bcrypt('123456'),
+        ]);
+
         Model::reguard();
     }
 }

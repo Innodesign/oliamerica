@@ -14,6 +14,9 @@
             <div>
                 {!! $noticia->contenido !!}
             </div>
+            <div class="leer-mas">
+                <a href="/admin/noticia/editar/{{$noticia->id}}">Editar</a>
+            </div>
         </div>
     @endforeach
 </div>
