@@ -18,7 +18,7 @@
 <div class="row" style="">
     
     <div class="col-md-4 col-xs-12 bordeado">
-        <h3 class="subtituloLanding text-center">Con el respaldo de las Certificaciones:</h3>
+        <h3 class="subtituloLanding text-center">{{ Lang::get('index.tituloCertificaciones') }}</h3>
     </div>
     <div class="col-md-2 col-xs-6 text-center">
         <img src="/img/certificaciones/bpmg_opt.png" alt="" />

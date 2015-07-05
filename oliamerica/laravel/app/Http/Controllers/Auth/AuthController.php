@@ -4,8 +4,10 @@ namespace oliamerica\Http\Controllers\Auth;
 
 use oliamerica\User;
 use Validator;
+//use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+
+use Illuminate\Http\Request;
 use oliamerica\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {
@@ -19,8 +21,9 @@ class AuthController extends Controller
     | a simple trait to add these behaviors. Why don't you explore it?
     |
     */
+    protected $redirectPath = '/admin/noticia';
 
-    use AuthenticatesAndRegistersUsers;
+    //use AuthenticatesAndRegistersUsers;
 
     /**
      * Create a new authentication controller instance.
@@ -60,5 +63,19 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+    }
+
+    public function login(Request $request){
+        $data = $request->all();
+        $rememberMe = false;
+        if (\Auth::attempt(['email' => $data['email'], 'password' => $data['password']],$rememberMe)) {
+            return redirect('/admin/noticia');
+        }
+    }
+
+    public function logout(){
+        \Auth::logout();
+        \Session::flush();
+        return redirect('/auth/login');
     }
 }

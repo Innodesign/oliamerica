@@ -29,5 +29,6 @@ class Kernel extends HttpKernel
         'auth' => \oliamerica\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'guest' => \oliamerica\Http\Middleware\RedirectIfAuthenticated::class,
+        'lenguaje' => \oliamerica\Http\Middleware\LenguajeMiddleware::class,
     ];
 }

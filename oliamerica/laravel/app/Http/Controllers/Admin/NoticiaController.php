@@ -4,6 +4,7 @@ namespace oliamerica\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use oliamerica\Noticia;
+use oliamerica\ViewModels\NoticiaViewModel;
 
 use oliamerica\Http\Requests;
 use oliamerica\Http\Controllers\Controller;
@@ -11,12 +12,15 @@ use oliamerica\Http\Controllers\Controller;
 class NoticiaController extends Controller
 {
     public function crear(){
-        return view('admin.noticia.crear');
+        $viewModel = new NoticiaViewModel;
+        $viewModel->inicializarCrearViewModel();
+        $model = Noticia::iniciar();
+        return view('admin.noticia.formulario',['viewModel' => $viewModel, 'model' => $model]);
     }
 
     public function guardar(Request $request){
         $data = $request->all();
-        $noticia = new Noticia($data);
+        $noticia = Noticia::crear($data);
         $noticia->save();
         return "ok";
     }
@@ -30,7 +34,22 @@ class NoticiaController extends Controller
     }
 
     public function index(){
-        $noticias = \DB::table('noticias')->paginate(3);
+        $noticias = \DB::table('noticias')->paginate(6);
         return view('admin.noticia.index', ['noticias' => $noticias]);
+    }
+
+    public function editar(Request $request,$id){
+        $viewModel = new NoticiaViewModel;
+        $viewModel->inicializarEditarViewModel($id);
+        $model = Noticia::find($id);
+        return view('admin.noticia.formulario',['viewModel' => $viewModel, 'model' => $model]);
+    }
+
+    public function actualizar(Request $request,$id){
+        $data = $request->all();
+        $noticia = Noticia::find($id);
+        $noticia->editar($data);
+        $noticia->save();
+        return redirect()->action('Admin\NoticiaController@index');
     }
 }
