@@ -8,12 +8,12 @@
 <div class="container contenidoNoticias" style="padding-top:3em; margin-bottom:3em">
     @foreach($noticias as $noticia)
         <div class="col-md-4 noticia">
-            <a href="/Entrada">
-                <img src="/uploads/{{$noticia->imagen}}" class="imgNoticia" alt="" />
-                <div class="tituloEntrada">
-                    <h3>{{$noticia->titulo}}</h3>    
-                </div>
-            </a>
+            <div class="tituloEntrada">
+                <h3>{{$noticia->titulo}}</h3>    
+            </div>
+            <div>
+                {!! $noticia->contenido !!}
+            </div>
         </div>
     @endforeach
 </div>

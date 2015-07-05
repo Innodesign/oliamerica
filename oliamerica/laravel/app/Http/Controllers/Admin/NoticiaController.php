@@ -15,13 +15,10 @@ class NoticiaController extends Controller
     }
 
     public function guardar(Request $request){
-
-        $nombreArchivo = $this->subirArchivo("imagen");
-
         $data = $request->all();
-        $data["nombreArchivo"] = $nombreArchivo;
         $noticia = new Noticia($data);
         $noticia->save();
+        return "ok";
     }
 
     public function subirArchivo($llaveArchivo){
@@ -33,7 +30,7 @@ class NoticiaController extends Controller
     }
 
     public function index(){
-        $noticias = \DB::table('noticias')->paginate(2);
+        $noticias = \DB::table('noticias')->paginate(3);
         return view('admin.noticia.index', ['noticias' => $noticias]);
     }
 }
