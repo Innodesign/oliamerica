@@ -57,10 +57,11 @@ Route::get('/admin', function () {
     return view('admin.index');
 });
 
-Route::group(['prefix' => 'Admin'], function () {
-    Route::group(['prefix' => 'Noticia'], function ()    {
-        Route::get('Crear', ['uses' => 'Admin\NoticiaController@crear']);
-        Route::post('Guardar', ['uses' => 'Admin\NoticiaController@guardar']);
+Route::group(['prefix' => 'admin'], function () {
+    Route::group(['prefix' => 'noticia'], function ()    {
+        Route::get('crear', ['uses' => 'Admin\NoticiaController@crear']);
+        Route::get('', ['uses' => 'Admin\NoticiaController@index']);
+        Route::post('guardar', ['uses' => 'Admin\NoticiaController@guardar']);
     });
 });
 
