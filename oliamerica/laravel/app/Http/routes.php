@@ -16,7 +16,7 @@ use oliamerica\Http\Controllers\Admin;
 Route::get('/',['middleware' => 'lenguaje', function () {
     return view('index');
 
-});
+}]);
 Route::get('/nosotros', function () {
     return view('nosotros');
 });
