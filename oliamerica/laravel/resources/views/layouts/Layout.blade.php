@@ -12,7 +12,7 @@
     <link href="css/animate.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background:#B7C012">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background:#B7C012;border:0">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -26,10 +26,10 @@
             </div>
             <div class="navbar-collapse collapse pull-right" style="margin-top:1.2em">
                 <ul class="nav navbar-nav">
-                    <li><a href="/nosotros" class="enlaceMenu" style="color:#fff">NOSOTROS</a></li>
-                    <li><a href="/noticias" class="enlaceMenu" style="color:#fff">NOTICIAS</a></li>
-                    <li><a href="/productos" class="enlaceMenu" style="color:#fff">PRODUCTOS</a></li>
-                    <li><a href="/contacto" class="enlaceMenu" style="color:#fff">CONTACTO</a></li>
+                    <li><a href="/nosotros" class="enlaceMenu" style="color:#fff">{{ Lang::get('index.menuNosotros') }}</a></li>
+                    <li><a href="/noticias" class="enlaceMenu" style="color:#fff">{{ Lang::get('index.menuNoticias') }}</a></li>
+                    <li><a href="/productos" class="enlaceMenu" style="color:#fff">{{ Lang::get('index.menuProductos') }}</a></li>
+                    <li><a href="/contacto" class="enlaceMenu" style="color:#fff">{{ Lang::get('index.menuContacto') }}</a></li>
                     
                 </ul>
             </div>
@@ -42,7 +42,7 @@
         
     </div>
     <footer>
-        <p>&copy; 2015 - OLIAMERICA S.A.C. / Diseñado por <a href="http://id-peru.com">Innodesign</a></p>
+        <p>{{ Lang::get('index.menuCopyright') }}<a href="http://id-peru.com">Innodesign</a></p>
     </footer>
     <script src="js/jquery-1.10.2.min.js")></script>
     <script src="js/bootstrap.min.js")></script>

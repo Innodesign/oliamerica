@@ -1,9 +1,9 @@
-@extends('layouts.es_Layout')
+@extends('layouts.Layout')
 
 @section('content')
 
 <div class="row cabeceraNosotros">
-    <h3 class="headerNosotros text-center">CONOCE UN POCO DE NOSOTROS</h3>
+    <h3 class="headerNosotros text-center">{{ Lang::get('nosotros.tituloNosotros') }}</h3>
 </div>
 
 <div class="row" style="margin-top:2em">
@@ -11,20 +11,9 @@
         <img src="/img/aceituna.png" alt="" style="vertical-align:middle" />
     </div>
     <div class="col-md-9">
-        <p>
-            Somos una empresa  joven del sector agroindustrial  constituida  legalmente en diciembre del año 2009. Estamos
-            ubicados estratégicamente en el extremo sur del Perú, en la provincia de Tacna, que además de ser la principal
-            zona productora de olivos cuenta con vías de comunicación adecuadas para facilitar el comercio  exterior.
-        </p>
-        <p>
-            Nuestros productos  son elaborados bajo Sistemas Internacionales de Calidad garantizados y certificados por
-            entidades internacionales, los cuales nos permiten obtener productos de calidad en sus diversas presentaciones.
-        </p>
-        <p>
-            En OLIAMERICA SAC además de una constante innovación, unimos  la experiencia, honestidad y seriedad en el
-            cumplimiento de los compromisos adquiridos con nuestros clientes, garantía de ello es que  año a año nos
-            renuevan su confianza.
-        </p>
+        <p>{{ Lang::get('nosotros.parrafo1') }}</p>
+        <p>{{ Lang::get('nosotros.parrafo2') }}</p>
+        <p>{{ Lang::get('nosotros.parrafo3') }}</p>
     </div>
 </div>
 
@@ -34,14 +23,14 @@
             <div class="panel-heading" role="tab" id="headingOne">
               <h3 class="panel-title tituloInterno">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Misión
+                  <p>{{ Lang::get('nosotros.tituloMision') }}</p>
                 </a>
               </h3>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
               <div class="panel-body">
                 <p>
-                    “Somos una empresa que procesa aceitunas de mesa de óptima calidad, comprometida con la satisfacción de nuestros consumidores, asegurando la fidelidad de nuestros clientes y promoviendo el crecimiento personal de nuestros colaboradores”.
+                    {{ Lang::get('nosotros.descripcionMision') }}
                 </p>
               </div>
             </div>
@@ -50,14 +39,14 @@
             <div class="panel-heading" role="tab" id="headingTwo">
               <h3 class="panel-title tituloInterno">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Visión
+                  {{ Lang::get('nosotros.tituloVision') }}
                 </a>
               </h3>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="panel-body">
                 <p>
-                    “Ser líder como empresa exportadora de aceitunas de mesa y sus derivados, con posicionamiento nacional e internacional”.
+                    {{ Lang::get('nosotros.descripcionVision') }}
                 </p>
               </div>
             </div>
@@ -66,17 +55,18 @@
             <div class="panel-heading" role="tab" id="headingThree">
               <h3 class="panel-title tituloInterno">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Política de Calidad
+                  {{ Lang::get('nosotros.tituloPolitica') }}
+                  
                 </a>
               </h3>
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                     <p>
-                        En OLIAMERICA S.A.C. nos dedicamos al procesamiento de aceitunas de mesa y sus derivados, envasadas en diversas presentaciones. Asumimos, como compromiso, la búsqueda de la satisfacción de las necesidades de nuestros clientes mediante la entrega oportuna de productos de calidad e inocuos que excedan sus expectativas. Para ello contamos con un personal altamente comprometido con los objetivos de nuestra organización y con el cumplimiento de la legislación nacional e internacional así como con los requisitos de nuestros clientes.
+                        {{ Lang::get('nosotros.politica1') }}
                     </p>
                     <p>
-                        Aseguramos el cumplimiento de nuestros objetivos a través del diseño e implantación de la Norma Buenas Prácticas de Manufactura y Gestión, Buenas Prácticas Logísticas y el Sistema de Gestión de Inocuidad, que involucran a todos los niveles de la organización y se encuentran basados en la prevención y mejora continua.
+                        {{ Lang::get('nosotros.politica2') }}
                     </p>
               </div>
             </div>
@@ -85,7 +75,8 @@
             <div class="panel-heading" role="tab" id="headingFour">
               <h3 class="panel-title tituloInterno">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Objetivos
+                  {{ Lang::get('nosotros.tituloObjetivos') }}
+                  
                 </a>
               </h3>
             </div>
@@ -93,24 +84,22 @@
               <div class="panel-body">
                  <ul>
                     <li>
-                        Buscar la satisfacción de nuestros clientes en relación a nuestros productos y servicio brindado.
+                        {{ Lang::get('nosotros.objetivo1') }}
                     </li>
                     <li>
-                        Cumplir  con nuestros clientes  en fecha y  cantidad solicitada  sin errores.
+                        {{ Lang::get('nosotros.objetivo2') }}
                     </li>
                     <li>
-                        Trabajar con proveedores que cumplan nuestros estándares de calidad en sus productos  para garantizar la
-                        calidad e inocuidad de nuestros productos terminados.
+                        {{ Lang::get('nosotros.objetivo3') }}
                     </li>
                     <li>
-                        Cumplir con los lineamientos establecidos en  nuestros procesos establecidos tanto en el Sistema de
-                        Gestión de la Calidad de acuerdo a la norma BPMG y el Sistema de Gestión de Inocuidad.
+                        {{ Lang::get('nosotros.objetivo4') }}
                     </li>
                     <li>
-                        Capacitar, entrenar y evaluar permanentemente a nuestros colaboradores.
+                        {{ Lang::get('nosotros.objetivo5') }}
                     </li>
                     <li>
-                        Buscar  innovación constante en todos los procesos de la organización.
+                        {{ Lang::get('nosotros.objetivo6') }}
                     </li>
                 </ul>
               </div>
@@ -120,7 +109,8 @@
             <div class="panel-heading" role="tab" id="headingFive">
               <h3 class="panel-title tituloInterno">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Valores Corporativos
+                  {{ Lang::get('nosotros.tituloValoresCorporativos') }}
+                  
                 </a>
               </h3>
             </div>
@@ -128,16 +118,20 @@
               <div class="panel-body">
                 <ul>
                     <li>
-                        <strong>Perseverancia</strong> - Firmeza y constancia ante las adversidades.
+                        {{ Lang::get('nosotros.valor1') }}
+
                     </li>
                     <li>
-                        <strong>Orden y Limpieza</strong> - Obtener productos inocuos.
+                        {{ Lang::get('nosotros.valor2') }}
+                        
                     </li>
                     <li>
-                        <strong>Eficiencia</strong> - Capacidad de respuesta oportuna.
+                        {{ Lang::get('nosotros.valor3') }}
+                        
                     </li>
                     <li>
-                        <strong>Compromiso</strong> - Identificado con la visión, misión y objetivos de la empresa.
+                        {{ Lang::get('nosotros.valor4') }}
+                        
                     </li>
                 </ul>
               </div>

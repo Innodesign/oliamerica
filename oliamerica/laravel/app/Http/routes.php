@@ -13,37 +13,28 @@
 
 use oliamerica\Http\Controllers\Admin;
 
-Route::get('/',['middleware' => 'lenguaje', function () {
-    return view('index');
 
-}]);
-Route::get('/nosotros', function () {
-    return view('nosotros');
+Route::group(['middleware' => 'lenguaje'], function () {
+
+    Route::get('/', function () {
+        return view('index');
+
+    });
+    Route::get('/nosotros', function () {
+        return view('nosotros');
+    });
+    Route::get('/noticias', function () {
+        return view('noticias');
+    });
+    Route::get('/productos', function () {
+        return view('productos');
+    });
+    Route::get('/contacto', function () {
+        return view('contacto');
+    });
+
 });
-Route::get('/noticias', function () {
-    return view('noticias');
-});
-Route::get('/productos', function () {
-    return view('productos');
-});
-Route::get('/contacto', function () {
-    return view('contacto');
-});
-Route::get('/home', function () {
-    return view('en_index');
-});
-Route::get('/aboutUs', function () {
-    return view('about_us');
-});
-Route::get('/news', function () {
-    return view('noticias');
-});
-Route::get('/products', function () {
-    return view('products');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
+
 Route::get('/entrada', function () {
     return view('entrada');
 });

@@ -13,11 +13,12 @@ return [
     |
     */
 
-    'tituloCertificaciones' => 'Backed Certifications:',
-    'menuNosotros' => 'ABOUT US',
-    'menuNoticias' => 'NEWS',
-    'menuProductos' => 'PRODUCTS',
-    'menuContacto' => 'CONTACT US',
-    'menuCopyright' => '&copy; 2015 - OLIAMERICA S.A.C. / Design by '
+    'tituloNoticias' => 'LAST NEWS',
+    'titulo1' => 'Titulo Noticia',
+    'titulo2' => 'Titulo Noticia',
+    'titulo3' => 'Titulo Noticia',
+    'titulo4' => 'Titulo Noticia',
+    'titulo5' => 'Titulo Noticia',
+    'titulo6' => 'Titulo Noticia'
 
 ];
