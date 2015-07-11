@@ -23,7 +23,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/Admin">
+                    <a class="navbar-brand" href="/admin">
                         <img src="/img/logo.png" class="logo" alt="Oliamerica">
                     </a>
                 </div>

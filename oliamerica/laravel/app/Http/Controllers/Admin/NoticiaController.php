@@ -22,7 +22,9 @@ class NoticiaController extends Controller
         $data = $request->all();
         $noticia = Noticia::crear($data);
         $noticia->save();
-        return "ok";
+        \Session::flash('message', 'La noticia se guardo correctamente'); 
+        \Session::flash('alert-class', 'alert-success');
+        return redirect()->action('Admin\NoticiaController@index');
     }
 
     public function subirArchivo($llaveArchivo){

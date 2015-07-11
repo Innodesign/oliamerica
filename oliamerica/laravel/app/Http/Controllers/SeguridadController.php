@@ -15,11 +15,11 @@ class SeguridadController extends Controller
         if (\Auth::attempt(['email' => $data['email'], 'password' => $data['password']],$rememberMe)) {
             return redirect('/admin/noticia');
         }
+        return redirect('/auth/login');
     }
 
     public function logout(){
         \Auth::logout();
-        \Session::flush();
         return redirect('/auth/login');
     }
 }
