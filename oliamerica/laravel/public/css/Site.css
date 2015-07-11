@@ -201,6 +201,7 @@ p
     width: 100%;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;   
+    filter: blur(6px);
 }
 
 .mensaje
@@ -216,10 +217,32 @@ p
     color: #fff;
     font-size: 1.2em;
 }
-.noticia
-{
-    /*padding:2em 5em 0 5em;*/
-    margin: 3em 0;
+.noticia{
+  max-height: 300px;
+  max-width: 350px;
+  height: 300px;
+  overflow-y: hidden;
+  overflow-x:hidden;
+}
+.leer-mas{
+  display: block;
+  width: 100%;
+  background-image: url('/img/vermas.png');
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.leer-mas a{
+  position:absolute;
+  background-color: #689F38;
+  padding: 5px 10px;
+  right: 20px;
+  bottom: 5px;
+  text-decoration: none;
+  color: #fff;
 }
 .subtitulo
 {

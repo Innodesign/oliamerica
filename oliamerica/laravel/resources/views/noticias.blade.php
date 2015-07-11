@@ -7,52 +7,70 @@
 </div>
 <div class="container contenidoNoticias">
     <div class="col-md-4 noticia">
-        <a href="/Entrada">
-            <img src="/img/blog.png" class="imgNoticia" alt="" />
-            <div class="tituloEntrada">
-                <h3>{{ Lang::get('noticias.titulo1') }}</h3>    
-            </div>
-        </a>
+        <div class="tituloEntrada">
+            <h3>titulo</h3>    
+        </div>
+        <div>
+            contenido
+        </div>
+        <div class="leer-mas">
+            <a href="/">Ver</a>
+        </div>
+    </div>
+   <div class="col-md-4 noticia">
+        <div class="tituloEntrada">
+            <h3>titulo</h3>    
+        </div>
+        <div>
+            contenido
+        </div>
+        <div class="leer-mas">
+            <a href="/">Ver</a>
+        </div>
     </div>
     <div class="col-md-4 noticia">
-        <a href="/Entrada">
-            <img src="/img/blog.png" class="imgNoticia" alt="" />
-            <div class="tituloEntrada">
-                <h3>{{ Lang::get('noticias.titulo2') }}</h3>    
-            </div>    
-        </a>
+        <div class="tituloEntrada">
+            <h3>titulo</h3>    
+        </div>
+        <div>
+            contenido
+        </div>
+        <div class="leer-mas">
+            <a href="/">Ver</a>
+        </div>
     </div>
     <div class="col-md-4 noticia">
-        <a href="/Entrada">
-            <img src="/img/blog.png" class="imgNoticia" alt="" />
-            <div class="tituloEntrada">
-                <h3>{{ Lang::get('noticias.titulo3') }}</h3>    
-            </div>    
-        </a>
+        <div class="tituloEntrada">
+            <h3>titulo</h3>    
+        </div>
+        <div>
+            contenido
+        </div>
+        <div class="leer-mas">
+            <a href="/">Ver</a>
+        </div>
     </div>
     <div class="col-md-4 noticia">
-        <a href="/Entrada">
-            <img src="/img/blog.png" class="imgNoticia" alt="" />
-            <div class="tituloEntrada">
-                <h3>{{ Lang::get('noticias.titulo4') }}</h3>    
-            </div>    
-        </a>
+        <div class="tituloEntrada">
+            <h3>titulo</h3>    
+        </div>
+        <div>
+            contenido
+        </div>
+        <div class="leer-mas">
+            <a href="/">Ver</a>
+        </div>
     </div>
     <div class="col-md-4 noticia">
-        <a href="/Entrada">
-            <img src="/img/blog.png" class="imgNoticia" alt="" />
-            <div class="tituloEntrada">
-                <h3>{{ Lang::get('noticias.titulo5') }}</h3>    
-            </div>    
-        </a>
-    </div>
-    <div class="col-md-4 noticia">
-        <a href="/Entrada">
-            <img src="/img/blog.png" class="imgNoticia" alt="" />
-            <div class="tituloEntrada">
-                <h3>{{ Lang::get('noticias.titulo6') }}</h3>    
-            </div>    
-        </a>
+        <div class="tituloEntrada">
+            <h3>titulo</h3>    
+        </div>
+        <div>
+            contenido
+        </div>
+        <div class="leer-mas">
+            <a href="/">Ver</a>
+        </div>
     </div>
 
     
