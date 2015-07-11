@@ -34,19 +34,24 @@
 @endsection
 
 <div class="row cabeceraNosotros" style="margin-top:1em">
-    <div class="col-md-8 col-md-offset-2">
-        @if(Session::has('message'))
-            <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
-        @endif
-    </div>
     <div class="col-md-12">
         <ol class="breadcrumb">
-          <li><a href="/admin/noticia"><h4>Noticias</h4></a></li>
+          <li><h4><a href="/admin/noticia">Noticias</a></h4></li>
           <li class="active"> {{ $viewModel->titulo }}</li>
         </ol>
+    </div>
+
+</div>
+@if(Session::has('message'))
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="alert {{ Session::get('alert-class', 'alert-info') }} alert-dismissible fade in text-center" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <strong><i class="fa fa-check"></i></strong> {{ Session::get('message') }}
+        </div>
     </div> 
 </div>
-
+@endif
 <div class="row">
     <form class="formNoticia" method="post" action="{{ $viewModel->rutaFormulario}}" enctype="multipart/form-data"> 
         <div class="form-group col-sm-12">
