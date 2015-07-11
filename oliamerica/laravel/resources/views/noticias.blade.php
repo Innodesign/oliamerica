@@ -6,78 +6,23 @@
     <h3 class="headerNosotros text-center">{{ Lang::get('noticias.tituloNoticias') }}</h3>
 </div>
 <div class="container contenidoNoticias">
-    <div class="col-md-4 noticia">
-        <div class="tituloEntrada">
-            <h3>titulo</h3>    
+    @foreach($noticias as $noticia)
+        <div class="col-md-4 noticia">
+            <div class="">
+                <h4>{{ $noticia->titulo }}</h4>    
+            </div>
+            <div>
+                {!! $noticia->contenido !!}
+            </div>
+            <div class="leer-mas">
+                <a href="/entrada/{{$noticia->id}}">Ver </a>
+            </div>
         </div>
-        <div>
-            contenido
-        </div>
-        <div class="leer-mas">
-            <a href="/">Ver</a>
-        </div>
-    </div>
-   <div class="col-md-4 noticia">
-        <div class="tituloEntrada">
-            <h3>titulo</h3>    
-        </div>
-        <div>
-            contenido
-        </div>
-        <div class="leer-mas">
-            <a href="/">Ver</a>
-        </div>
-    </div>
-    <div class="col-md-4 noticia">
-        <div class="tituloEntrada">
-            <h3>titulo</h3>    
-        </div>
-        <div>
-            contenido
-        </div>
-        <div class="leer-mas">
-            <a href="/">Ver</a>
-        </div>
-    </div>
-    <div class="col-md-4 noticia">
-        <div class="tituloEntrada">
-            <h3>titulo</h3>    
-        </div>
-        <div>
-            contenido
-        </div>
-        <div class="leer-mas">
-            <a href="/">Ver</a>
-        </div>
-    </div>
-    <div class="col-md-4 noticia">
-        <div class="tituloEntrada">
-            <h3>titulo</h3>    
-        </div>
-        <div>
-            contenido
-        </div>
-        <div class="leer-mas">
-            <a href="/">Ver</a>
-        </div>
-    </div>
-    <div class="col-md-4 noticia">
-        <div class="tituloEntrada">
-            <h3>titulo</h3>    
-        </div>
-        <div>
-            contenido
-        </div>
-        <div class="leer-mas">
-            <a href="/">Ver</a>
-        </div>
-    </div>
-
-    
+    @endforeach
 </div>
 <div class="container">
     <div class="col-md-12 text-center" style="margin: 2em 0">
-        <a href="" class="btnVerArticulos">Ver Más Artículos</a>    
+        {!! $noticias->render() !!}   
     </div>   
 </div>
 @endsection

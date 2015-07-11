@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OLIAMERICA - @yield('title')</title>
-    <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
-    <link href="css/Site.css" rel="stylesheet" />
-    <link href="css/animate.css" rel="stylesheet" />
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="/css/Site.css" rel="stylesheet" />
+    <link href="/css/animate.css" rel="stylesheet" />
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background:#B7C012;border:0">
@@ -44,9 +44,9 @@
     <footer>
         <p>{{ Lang::get('index.menuCopyright') }}<a href="http://id-peru.com">Innodesign</a></p>
     </footer>
-    <script src="js/jquery-1.10.2.min.js")></script>
-    <script src="js/bootstrap.min.js")></script>
-    <script src="js/jquery.bxslider.min.js")></script>
+    <script src="/js/jquery-1.10.2.min.js")></script>
+    <script src="/js/bootstrap.min.js")></script>
+    <script src="/js/jquery.bxslider.min.js")></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyPyPG1sYvkaQl2tb2WHZl823sy7nvH00&sensor=false"></script>
     
 

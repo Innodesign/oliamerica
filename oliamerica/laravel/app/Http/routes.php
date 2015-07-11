@@ -12,6 +12,7 @@
 */
 
 use oliamerica\Http\Controllers\Admin;
+use oliamerica\Noticia;
 
 
 Route::group(['middleware' => 'lenguaje'], function () {
@@ -24,7 +25,8 @@ Route::group(['middleware' => 'lenguaje'], function () {
         return view('nosotros');
     });
     Route::get('/noticias', function () {
-        return view('noticias');
+        $noticias = \DB::table('noticias')->paginate(6);
+        return view('noticias', ['noticias' => $noticias]);
     });
     Route::get('/productos', function () {
         return view('productos');
@@ -33,11 +35,13 @@ Route::group(['middleware' => 'lenguaje'], function () {
         return view('contacto');
     });
 
+    Route::get('/entrada/{id}', function ($id) {
+        $noticia = Noticia::find($id);
+        return view('entrada',['noticia' => $noticia]);
+    });
 });
 
-Route::get('/entrada', function () {
-    return view('entrada');
-});
+
 
 
 //Route::resource('Noticia', 'NoticiaController');
