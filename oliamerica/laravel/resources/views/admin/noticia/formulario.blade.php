@@ -52,7 +52,7 @@
     </div> 
 </div>
 @endif
-<div class="row">
+<div class="row" style="padding:0 0 3em 0">
     <form class="formNoticia" method="post" action="{{ $viewModel->rutaFormulario}}" enctype="multipart/form-data"> 
         <div class="form-group col-sm-12">
             <label for="titulo">Titulo</label>
@@ -72,7 +72,7 @@
             
             </textarea>
         </div>
-        <button type="submit">Guardar</button>
+        <button type="submit" id="btnGuardarNoticia">Guardar</button>
     </form>
 </div>
 

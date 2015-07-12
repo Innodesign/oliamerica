@@ -8,7 +8,7 @@
 <hr style="border-top:1px solid #ccc; width:85%">
 <div class="container contenidoNoticias">
     <div class="datosEntrada">
-        <p class="autor">{{ $noticia->autor }}</p>
+        <p class="autor"> {{ $noticia->autor }}</p>
         <p class="fecha pull-right">{{ $noticia->obtenerFecha() }}</p>          
     </div>
     
