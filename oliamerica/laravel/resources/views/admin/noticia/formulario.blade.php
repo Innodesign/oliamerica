@@ -22,7 +22,7 @@
             lang: 'es-ES'
         });
 
-        $('#editor').code({!! "'" . $model->contenido . "'" !!});
+        $('#editor').code($('#editor').text());
 
         $('.formNoticia').submit(function(){
             $('#editor').val($('#editor').code());
@@ -69,7 +69,7 @@
         <div class="form-group" style="padding:0 15px">
             <label for="titulo">Contenido</label>
             <textarea class="form-control" id="editor" name="contenido">
-            
+                {!! $model->contenido !!}
             </textarea>
         </div>
         <button type="submit" id="btnGuardarNoticia">Guardar</button>
