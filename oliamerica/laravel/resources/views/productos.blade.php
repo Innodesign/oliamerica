@@ -15,7 +15,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/aceituna-negra.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto1') }}</h4>
@@ -27,7 +27,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/aceituna-negra-deshuesada.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto2') }}</h4>
@@ -39,7 +39,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/aceitunas-negras-rodajas.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto3') }}</h4>
@@ -68,7 +68,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/aceituna-verde.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto4') }}</h4>
@@ -80,7 +80,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/aceituna-verde-deshuesada.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto5') }}</h4>
@@ -92,10 +92,11 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                
+                                <a href="#"><img src="/img/aceituna-verde-rodajas.png" alt=""></a>
                             </div>
                             <div class="caption">
-                                <h4>{{ Lang::get('productos.btnVer') }}</h4>
+                                <h4>{{ Lang::get('productos.producto6') }}</h4>
                                 <!-- <p>Natural</p> -->
                                 <a class="btn btn-mini" href="#">» {{ Lang::get('productos.btnVer') }}</a>
                             </div>
@@ -121,7 +122,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/verdes-rocoto.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto7') }}</h4>
@@ -133,7 +134,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/verdes-rocoto.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto8') }}</h4>
@@ -145,7 +146,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/verdes-castana.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto9') }}</h4>
@@ -157,7 +158,7 @@
                     <li class="col-sm-3 enlaceNone">
                         <div class="fff">
                             <div class="thumbnail">
-                                <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                <a href="#"><img src="/img/verdes-castana.png" alt=""></a>
                             </div>
                             <div class="caption">
                                 <h4>{{ Lang::get('productos.producto10') }}</h4>

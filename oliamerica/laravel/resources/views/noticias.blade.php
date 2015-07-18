@@ -9,13 +9,13 @@
     @foreach($noticias as $noticia)
         <div class="col-md-4 noticia">
             <div class="">
-                <h4>{{ $noticia->titulo }}</h4>    
+                <h4 class="txtTituloNoticia">{{ $noticia->titulo }}</h4>    
             </div>
             <div>
                 {!! $noticia->contenido !!}
             </div>
             <div class="leer-mas">
-                <a href="/entrada/{{$noticia->id}}">Ver </a>
+                <a href="/entrada/{{$noticia->id}}"><i class="fa fa-eye"></i> Ver </a>
             </div>
         </div>
     @endforeach

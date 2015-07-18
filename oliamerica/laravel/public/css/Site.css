@@ -123,7 +123,7 @@ p
 }
 .cabeceraNosotros
 {
-    background: #8BC34A;
+    background: #62A95A;
     margin-top:3em;
     padding: 1.5em 0;
 }
@@ -288,6 +288,12 @@ p
 {
     font-size: 1.4em;
     line-height: 160%;
+}
+.txtTituloNoticia
+{
+    color: #222;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 
