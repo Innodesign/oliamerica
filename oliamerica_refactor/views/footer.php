@@ -1,6 +1,23 @@
 </div>
     <footer>
-        <p><?php echo Lang::get('index.menuCopyright') ?><a href="http://id-peru.com">Innodesign</a></p>
+        <div class="container">
+
+            <div class="col-md-6">
+                <p><?php echo Lang::get('index.menuCopyright') ?></p>
+            </div>
+            <div class="col-md-6">
+                <h4 style="color:#fff; padding:0; padding-bottom:1em; margin:0">Siguenos en tus redes sociales</h4>
+                <div class="col-md-1">
+                    <img src="img/facebook.png">
+                    
+                </div>
+                <div class="col-md-1">
+                    <img src="img/twitter.png">
+                </div>
+            </div>        
+        </div>
+            
+            
     </footer>
     <script src="js/jquery-1.10.2.min.js")></script>
     <script src="js/bootstrap.min.js")></script>
@@ -59,7 +76,7 @@
             maxWidth: 200
         });
         var image = {
-            url: '/img/marker.png',
+            url: 'img/marker.png',
         };
 
         var marker = new google.maps.Marker({

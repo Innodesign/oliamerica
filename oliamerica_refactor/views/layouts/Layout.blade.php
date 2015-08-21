@@ -10,6 +10,7 @@
     <link href="/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="/css/Site.css" rel="stylesheet" />
     <link href="/css/animate.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Sarala' rel='stylesheet' type='text/css'>
 </head>
@@ -28,11 +29,11 @@
             </div>
             <div class="navbar-collapse collapse pull-right" style="margin-top:1.2em">
                 <ul class="nav navbar-nav">
-                    <li class="enlaceMenu"><a href="/nosotros">{{ Lang::get('index.menuNosotros') }}</a></li>
-                    <li class="enlaceMenu"><a href="/productos">{{ Lang::get('index.menuProductos') }}</a></li>
-                    <li class="enlaceMenu"><a href="/productos">{{ Lang::get('index.menuPolitica') }}</a></li>
-                    <li class="enlaceMenu"><a href="/noticias">{{ Lang::get('index.menuNoticias') }}</a></li>
-                    <li class="enlaceMenu"><a href="/contacto">{{ Lang::get('index.menuContacto') }}</a></li>
+                    <li class="enlaceMenu"><a href="/Nosotros">{{ Lang::get('index.menuNosotros') }}</a></li>
+                    <li class="enlaceMenu"><a href="/Productos">{{ Lang::get('index.menuProductos') }}</a></li>
+                    <li class="enlaceMenu"><a href="/Politica">{{ Lang::get('index.menuPolitica') }}</a></li>
+                    <li class="enlaceMenu"><a href="/Noticias">{{ Lang::get('index.menuNoticias') }}</a></li>
+                    <li class="enlaceMenu"><a href="/Contacto">{{ Lang::get('index.menuContacto') }}</a></li>
                     
                 </ul>
             </div>
@@ -45,7 +46,16 @@
         
     </div>
     <footer>
-        <p>{{ Lang::get('index.menuCopyright') }}<a href="http://id-peru.com">Innodesign</a></p>
+        <!-- <p>{{ Lang::get('index.menuCopyright') }}<a href="http://id-peru.com">Innodesign</a></p> -->
+        <div class="col-md-12">
+            <ul class="social-network social-circle">
+                <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>               
+        </div>
     </footer>
     <script src="/js/jquery-1.10.2.min.js")></script>
     <script src="/js/bootstrap.min.js")></script>
