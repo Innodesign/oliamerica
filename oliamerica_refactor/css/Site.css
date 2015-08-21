@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6
 footer
 {
     background: #2d2d2d;
+    border-left: 90px solid ;
     padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 1em;
@@ -48,8 +49,8 @@ hr
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    background: rgba(241, 196, 15, 0.84);
-
+    /*background: rgba(241, 196, 15, 0.84);*/
+    background: #fff;
     border-bottom: 5px solid #689F38;
 }
 p

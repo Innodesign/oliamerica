@@ -10,6 +10,7 @@
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
     <link href="css/Site.css" rel="stylesheet" />
     <link href="css/animate.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Sarala' rel='stylesheet' type='text/css'>
 </head>
@@ -22,17 +23,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="">
+                <a class="navbar-brand" href="/">
                     <img src="img/logo-olisac.png" class="logo" alt="Oliamerica"  />
                 </a>
             </div>
             <div class="navbar-collapse collapse pull-right" style="margin-top:1.2em">
                 <ul class="nav navbar-nav">
-                    <li class="enlaceMenu"><a href="nosotros"><?php echo Lang::get('index.menuNosotros') ?></a></li>
-                    <li class="enlaceMenu"><a href="productos"><?php echo Lang::get('index.menuProductos') ?></a></li>
-                    <li class="enlaceMenu"><a href="productos"><?php echo Lang::get('index.menuPolitica') ?></a></li>
-                    <li class="enlaceMenu"><a href="noticias"><?php echo Lang::get('index.menuNoticias') ?></a></li>
-                    <li class="enlaceMenu"><a href="contacto"><?php echo Lang::get('index.menuContacto')?></a></li>
+                    <li class="enlaceMenu"><a href="Nosotros"><?php echo Lang::get('index.menuNosotros') ?></a></li>
+                    <li class="enlaceMenu"><a href="Productos"><?php echo Lang::get('index.menuProductos') ?></a></li>
+                    <li class="enlaceMenu"><a href="Politicas"><?php echo Lang::get('index.menuPolitica') ?></a></li>
+                    <li class="enlaceMenu"><a href="Noticias"><?php echo Lang::get('index.menuNoticias') ?></a></li>
+                    <li class="enlaceMenu"><a href="Contacto"><?php echo Lang::get('index.menuContacto')?></a></li>
                     
                 </ul>
             </div>
