@@ -25,7 +25,7 @@ return [
     'descripcionMision' => '“Somos una empresa que procesa aceitunas de mesa de óptima calidad, comprometida con la satisfacción de nuestros consumidores, asegurando la fidelidad de nuestros clientes y promoviendo el crecimiento personal de nuestros colaboradores”',
     'tituloVision' => 'Visión',
     'descripcionVision' => '“Ser líder como empresa exportadora de aceitunas de mesa y sus derivados, con posicionamiento nacional e internacional”',
-    'tituloPoliticas' => 'Política de Calidad',
+    'tituloPolitica' => 'Política de Calidad',
     'politica1' => 'En OLIAMERICA S.A.C. nos dedicamos al procesamiento de aceitunas de mesa y sus derivados, envasadas en diversas presentaciones. Asumimos, como compromiso, la búsqueda de la satisfacción de las necesidades de nuestros clientes mediante la entrega oportuna de productos de calidad e inocuos que excedan sus expectativas. Para ello contamos con un personal altamente comprometido con los objetivos de nuestra organización y con el cumplimiento de la legislación nacional e internacional así como con los requisitos de nuestros clientes.',
     'politica2' => 'Aseguramos el cumplimiento de nuestros objetivos a través del diseño e implantación de la Norma Buenas Prácticas de Manufactura y Gestión, Buenas Prácticas Logísticas y el Sistema de Gestión de Inocuidad, que involucran a todos los niveles de la organización y se encuentran basados en la prevención y mejora continua.',
     'tituloObjetivos' => 'Objetivos',
@@ -38,9 +38,9 @@ return [
     'objetivo5' => 'Capacitar, entrenar y evaluar permanentemente a nuestros colaboradores.',
     'objetivo6' => 'Buscar  innovación constante en todos los procesos de la organización.',
     'tituloValoresCorporativos' => 'Valores Corporativos',
-    'valor1' => '<strong>Perseverancia</strong> - Firmeza y constancia ante las adversidades.',
-    'valor2' => '<strong>Orden y Limpieza</strong> - Obtener productos inocuos.',
-    'valor3' => '<strong>Eficiencia</strong> - Capacidad de respuesta oportuna.',
-    'valor4' => '<strong>Compromiso</strong> - Identificado con la visión, misión y objetivos de la empresa.'
+    'valor1' => 'Perseverancia - Firmeza y constancia ante las adversidades.',
+    'valor2' => 'Orden y Limpieza - Obtener productos inocuos.',
+    'valor3' => 'Eficiencia - Capacidad de respuesta oportuna.',
+    'valor4' => 'Compromiso - Identificado con la visión, misión y objetivos de la empresa.'
 
 ];

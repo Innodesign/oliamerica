@@ -2,7 +2,12 @@
     font-family: 'pt_sansregular';
     padding-top: 38px;
     padding-bottom: 0;
-    
+    background: url('/img/fondo-oliamerica.jpg') no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 a:hover, a:enabled
 {
@@ -37,13 +42,15 @@ hr
     margin-top: 0;
     margin-bottom: 0;
 }
-img { max-width:100%; }
+/*img { max-width:100%; }*/
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    background: #fff;
+    background: rgba(241, 196, 15, 0.84);
+
+    border-bottom: 5px solid #689F38;
 }
 p
 {
@@ -124,7 +131,7 @@ p
 .cabeceraNosotros
 {
     background: #62A95A;
-    margin-top:3em;
+    margin-top:5em;
     padding: 1.5em 0;
 }
 .cabeceraNoticia
@@ -146,7 +153,7 @@ p
 {
      padding-top:0em; 
      margin-bottom:3em;
-     
+     padding-left: 4em;
 }
 .datosEntrada
 {
@@ -154,12 +161,23 @@ p
 }
 .enlaceMenu
 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
+    font-family: 'Sarala', sans-serif;
+    transition: all 500ms;
+}
+.enlaceMenu a
+{
+    color: #716900;
 }
 .enlaceMenu:hover
 {
-    background: #333;
+    background: #716900;
+    border-radius: 3px;
+}
+.enlaceMenu:hover a
+{
+    color: #f8f8f8;
 }
 .enlaceNone
 {
@@ -185,6 +203,7 @@ p
 {
     background: #689F38;
     color: #fff;
+    font-family: 'Sarala', sans-serif;
     font-size:1.2em;
     padding: 1em 0.5em;
     margin: 1em 0 0 0;
@@ -192,7 +211,9 @@ p
 .headerNosotros
 {
     color: #f8f8f8;
-    font-size: 1.3em;
+    font-size: 2.5em;
+    font-family: 'Sarala', sans-serif;
+    letter-spacing: 0;
     font-weight: bold;
 }
 .imgIdioma
@@ -228,11 +249,16 @@ p
   height: 300px;
   overflow-y: hidden;
   overflow-x:hidden;
+  margin: 1.5em 0;
+}
+.noticiaWeb
+{
+
 }
 .leer-mas{
   display: block;
   width: 100%;
-  background-image: url('/img/vermas.png');
+  /*background-image: url('/img/vermas.png');*/
   height: 100px;
   position: absolute;
   bottom: 0;
@@ -291,7 +317,9 @@ p
 }
 .txtTituloNoticia
 {
-    color: #222;
+    background: #f8f8f8;
+    padding: 1em;
+    color: #515151;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -300,7 +328,7 @@ p
 /* Thumbnail Box */
 .caption h4 {
    
-    color: #444;
+    color: #f8f8f8;
     }
     .caption p {
        
@@ -363,7 +391,7 @@ p
         h2 {
             margin-bottom: 3rem;
             font-weight: bold;
-            color: #ababab;
+            color: #f8f8f8;
         }
         .btn {
             border-radius: 0.2rem;
@@ -406,7 +434,6 @@ p
 @media (min-width: 768px) { 
     .premioNacional
     {
-        margin-top: -5em;
         margin-bottom: 2em;
     }
 }

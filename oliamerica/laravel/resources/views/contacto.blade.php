@@ -40,7 +40,6 @@
                 </div>
                 <div class="col-md-6">
                     <p><strong><i class="fa fa-phone"></i> {{ Lang::get('contacto.telefono') }}</strong> 0051-52-314238</p>
-                    <p><strong><i class="fa fa-mobile"></i> NEXTEL:</strong> 51*419*0132</p>
                     <p><strong><i class="fa fa-envelope-o"></i> Email:</strong> oliamerica@oliamerica.com</p>
                 </div>
                 

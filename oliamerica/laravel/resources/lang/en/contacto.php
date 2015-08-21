@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'titulo' => 'OUR PRODUCTS',
+    'titulo' => 'CONTACT US',
     'nombre' => 'Name:',
     'email' => 'Email:',
     'mensaje' => 'Message:',

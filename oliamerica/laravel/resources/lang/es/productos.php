@@ -14,6 +14,11 @@ return [
     */
 
     'tituloProductos' => 'NUESTROS PRODUCTOS',
+    'aceitunanegra'=> 'ACEITUNAS NEGRAS',
+    'aceitunaverde'=> 'ACEITUNAS VERDES',
+    'aceitunarellena'=> 'ACEITUNAS RELLENAS',
+    'aceiteoliva'=> 'ACEITE DE OLIVA',
+
     'categoria1' => 'ACEITUNAS NEGRAS EN SALMUERA',
     'producto1' => 'Aceitunas negras en salmuera',
     'producto2' => 'Aceitunas negras deshuesadas en salmuera',

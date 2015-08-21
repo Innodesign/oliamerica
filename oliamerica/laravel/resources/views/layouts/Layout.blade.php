@@ -10,9 +10,11 @@
     <link href="/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="/css/Site.css" rel="stylesheet" />
     <link href="/css/animate.css" rel="stylesheet" />
+
+    <link href='http://fonts.googleapis.com/css?family=Sarala' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background:#B7C012;border:0">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background:#f8f8f8;border-top: 1px solid #689F38; border-bottom:5px solid #689F38">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,15 +23,16 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img src="/img/logo.png" class="logo" alt="Oliamerica" />
+                    <img src="/img/logo-olisac.png" class="logo" alt="Oliamerica"  />
                 </a>
             </div>
             <div class="navbar-collapse collapse pull-right" style="margin-top:1.2em">
                 <ul class="nav navbar-nav">
-                    <li><a href="/nosotros" class="enlaceMenu" style="color:#fff">{{ Lang::get('index.menuNosotros') }}</a></li>
-                    <li><a href="/noticias" class="enlaceMenu" style="color:#fff">{{ Lang::get('index.menuNoticias') }}</a></li>
-                    <li><a href="/productos" class="enlaceMenu" style="color:#fff">{{ Lang::get('index.menuProductos') }}</a></li>
-                    <li><a href="/contacto" class="enlaceMenu" style="color:#fff">{{ Lang::get('index.menuContacto') }}</a></li>
+                    <li class="enlaceMenu"><a href="/nosotros">{{ Lang::get('index.menuNosotros') }}</a></li>
+                    <li class="enlaceMenu"><a href="/productos">{{ Lang::get('index.menuProductos') }}</a></li>
+                    <li class="enlaceMenu"><a href="/productos">{{ Lang::get('index.menuPolitica') }}</a></li>
+                    <li class="enlaceMenu"><a href="/noticias">{{ Lang::get('index.menuNoticias') }}</a></li>
+                    <li class="enlaceMenu"><a href="/contacto">{{ Lang::get('index.menuContacto') }}</a></li>
                     
                 </ul>
             </div>
@@ -37,7 +40,7 @@
         <a class="btnSpanish" href="/espaniol"><img class="imgIdioma" src="/img/spain.png"></a>
         <a class="btnEnglish" href="/ingles"><img class="imgIdioma" src="/img/england.png"></a>
     </div>
-    <div class="body-content animated slideInUp">
+    <div class="container body-content animated slideInUp">
        @yield('content')
         
     </div>
