@@ -1,6 +1,6 @@
 <?php
 
-return [
+return array(
 
     /*
     |--------------------------------------------------------------------------
@@ -17,7 +17,8 @@ return [
     'menuNosotros' => 'ABOUT US',
     'menuNoticias' => 'NEWS',
     'menuProductos' => 'PRODUCTS',
+    'menuPolitica' => 'QUALITY POLITIC',
     'menuContacto' => 'CONTACT US',
     'menuCopyright' => '&copy; 2015 - OLIAMERICA S.A.C. / Design by '
 
-];
+);

@@ -1,6 +1,6 @@
 <?php
 
-return [
+return array(
 
     /*
     |--------------------------------------------------------------------------
@@ -24,4 +24,4 @@ return [
     'telefono' => 'Phone:',
     'header' => 'YOUR OPINION IS VERY IMPORTANT FOR US'
 
-];
+);

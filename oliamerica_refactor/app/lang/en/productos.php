@@ -1,6 +1,6 @@
 <?php
 
-return [
+return array(
 
     /*
     |--------------------------------------------------------------------------
@@ -31,4 +31,4 @@ return [
     'producto10' => 'Chestnut stuffed olives in brine',
     'btnVer'=> 'More'
 
-];
+);

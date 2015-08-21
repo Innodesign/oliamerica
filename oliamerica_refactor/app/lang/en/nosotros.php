@@ -1,6 +1,6 @@
 <?php
 
-return [
+return array(
 
     /*
     |--------------------------------------------------------------------------
@@ -49,4 +49,4 @@ return [
     'valor3' => '<strong>Efficiency</strong> - Capacity for timely response.',
     'valor4' => '<strong>Commitment</strong> - Identification with the vision, mission and objectives of the company.'
 
-];
+);

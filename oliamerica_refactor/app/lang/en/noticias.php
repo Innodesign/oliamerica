@@ -1,6 +1,6 @@
 <?php
 
-return [
+return array(
 
     /*
     |--------------------------------------------------------------------------
@@ -21,4 +21,4 @@ return [
     'titulo5' => 'Titulo Noticia',
     'titulo6' => 'Titulo Noticia'
 
-];
+);
