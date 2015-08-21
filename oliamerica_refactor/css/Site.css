@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6
     background: #000;
     width: 100%;
     height: 100%;
-    opacity: .26;
+    opacity: .66;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=26)";
     filter: alpha(opacity=26);
     -khtml-opacity: 0.26;
@@ -65,7 +65,7 @@ hr
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    
+    background: #fff;
     border-bottom: 5px solid #689F38;
 }
 p

@@ -1,7 +1,7 @@
 <div class="row cabeceraNosotros">
     <h3 class="headerNosotros text-center"><?php echo Lang::get('productos.tituloProductos') ?></h3>
 </div>
-<div class="container" style="padding-top:3em; padding-bottom:3em">
+<div class="container" style="padding-top:3em; padding-bottom:3em; background: #fff">
     <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" style="color:#60883B"><?php echo Lang::get('productos.aceitunanegra') ?></a></li>
