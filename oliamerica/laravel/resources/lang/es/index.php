@@ -19,7 +19,7 @@ return [
     'menuProductos' => 'PRODUCTOS',
     'menuPolitica' => 'POLITICA DE CALIDAD',
     'menuContacto' => 'CONTACTO',
-    'menuCopyright' => '&copy; 2015 - OLIAMERICA S.A.C. / Diseñado por '
+    'menuCopyright' => '&copy; 2015 - OLIAMERICA S.A.C. - Todos los Derechos Reservados'
     
 
 ];

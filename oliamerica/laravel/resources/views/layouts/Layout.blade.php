@@ -45,7 +45,7 @@
         
     </div>
     <footer>
-        <p>{{ Lang::get('index.menuCopyright') }}<a href="http://id-peru.com">Innodesign</a></p>
+        <p>{{ Lang::get('index.menuCopyright') }}</p>
     </footer>
     <script src="/js/jquery-1.10.2.min.js")></script>
     <script src="/js/bootstrap.min.js")></script>
