@@ -12,21 +12,21 @@
       </ul>
 
       <!-- Tab panes -->
-      <div class="tab-content text-center">
+      <div class="tab-content text-center" style="margin-top:2em">
         <div role="tabpanel" class="tab-pane fade in active" id="home">
-            <img src="img/productos/aceituna-negra.png">
+            <img src="img/productos/aceituna-negra.png" style="max-width:100%">
         </div>
         <div role="tabpanel" class="tab-pane fade" id="profile">
-            <img src="img/productos/aceituna-verde.png">
+            <img src="img/productos/aceituna-verde.png" style="max-width:100%">
         </div>
         <div role="tabpanel" class="tab-pane fade" id="messages">
-            <img src="img/productos/aceituna-rellena.png">
+            <img src="img/productos/aceituna-rellena.png" style="max-width:100%">
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="settings">
-            <img src="img/productos/aceite-oliva.png">
+        <div role="tabpanel" class="tab-pane fade" id="settings" >
+            <img src="img/productos/aceite-oliva.png" style="max-width:100%">
         </div>
         <div role="tabpanel" class="tab-pane fade" id="presentaciones">
-            <img src="img/productos/presentaciones.png">
+            <img src="img/productos/presentaciones.png" style="max-width:100%">
         </div>
       </div>
 </div>

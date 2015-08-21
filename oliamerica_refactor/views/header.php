@@ -15,6 +15,7 @@
     <link href='http://fonts.googleapis.com/css?family=Sarala' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<div id="contenidoSite"></div>
     <div class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999; background:#f8f8f8;border-top: 1px solid #689F38; border-bottom:5px solid #689F38">
         <div class="container">
             <div class="navbar-header">
