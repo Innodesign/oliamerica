@@ -267,6 +267,15 @@ p
   overflow-x:hidden;
   margin: 1.5em 0;
 }
+.navbar-inverse .navbar-nav>li>a
+{
+    color: #689F38 !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover 
+{
+    color: #fff !important;
+    background: #689F38 !important;
+}
 .noticiaWeb
 {
 
