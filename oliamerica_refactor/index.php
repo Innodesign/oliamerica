@@ -21,12 +21,13 @@ $app->get("/", function() use ($app){
 
 $app->get("/espaniol", function() use ($app){
 	Lang::establecerLenguaje("es");
-	$app->response->redirect($app->urlFor("index"));
+	$rutaIndex = $app->urlFor("index");
+	$app->redirect("/oliamerica");
 });
 
 $app->get("/ingles", function() use ($app){
 	Lang::establecerLenguaje("en");
-	$app->response->redirect($app->urlFor("index"));
+	$app->redirect($app->urlFor("index"));
 });
 
 $app->get("/Nosotros", function() use ($app){
@@ -42,14 +43,19 @@ $app->get("/Politicas", function() use ($app){
 });
 
 $app->get("/Noticias", function() use ($app){
-	$app->render('noticias.php');
+	require 'app/data/conexion.php';
+	require 'app/models/Noticia.php';
+
+	$noticias = Noticia::find('all');
+
+	$app->render('noticias.php', array('noticias' => $noticias));
 });
 
 $app->get("/Contacto", function() use ($app){
 	$app->render('contacto.php');
 });
 
-$app->render('header.php');
+$app->render('header.php', array('baseUrl' => $app->urlFor("index")));
 
 $app->run();
 

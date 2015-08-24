@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OLIAMERICA - @yield('title')</title>
+    <title>OLIAMERICA</title>
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
@@ -24,7 +24,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="<?php echo $baseUrl ?>">
                     <img src="img/logo-olisac.png" class="logo" alt="Oliamerica"  />
                 </a>
             </div>
