@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OLIAMERICA - @yield('title')</title>
-    <link href="/css/normalize.css" rel="stylesheet" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/css/jquery.bxslider.css" rel="stylesheet" />
-    <link href="/css/Site.css" rel="stylesheet" />
-    <link href="/css/animate.css" rel="stylesheet" />
+    <link href="{{ asset('css/normalize.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/jquery.bxslider.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/Site.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/animate.css') }}" rel="stylesheet" />
 
     <link href='http://fonts.googleapis.com/css?family=Sarala' rel='stylesheet' type='text/css'>
 </head>
@@ -22,23 +22,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">
-                    <img src="/img/logo-olisac.png" class="logo" alt="Oliamerica"  />
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    <img src="{{ asset('img/logo-olisac.png') }}" class="logo" alt="Oliamerica"  />
                 </a>
             </div>
-            <div class="navbar-collapse collapse pull-right" style="margin-top:1.2em">
+            <div class="contenedorIdiomas">
+                <a class="" href="{{ url('espaniol') }}"><img class="imgIdioma" src="{{ asset('img/spain.png') }}"></a>
+                <a class="" href="{{ url('ingles') }}"><img class="imgIdioma" src="{{ asset('img/england.png') }}"></a>
+            </div>   
+            <div class="navbar-collapse collapse pull-right" style="margin-top:1em">
                 <ul class="nav navbar-nav">
-                    <li class="enlaceMenu"><a href="/nosotros">{{ Lang::get('index.menuNosotros') }}</a></li>
-                    <li class="enlaceMenu"><a href="/productos">{{ Lang::get('index.menuProductos') }}</a></li>
-                    <li class="enlaceMenu"><a href="/productos">{{ Lang::get('index.menuPolitica') }}</a></li>
-                    <li class="enlaceMenu"><a href="/noticias">{{ Lang::get('index.menuNoticias') }}</a></li>
-                    <li class="enlaceMenu"><a href="/contacto">{{ Lang::get('index.menuContacto') }}</a></li>
+                    <li class="enlaceMenu"><a href="{{ url('nosotros') }}">{{ Lang::get('index.menuNosotros') }}</a></li>
+                    <li class="enlaceMenu"><a href="{{ url('productos') }}">{{ Lang::get('index.menuProductos') }}</a></li>
+                    <li class="enlaceMenu"><a href="{{ url('politica-calidad') }}">{{ Lang::get('index.menuPolitica') }}</a></li>
+                    <li class="enlaceMenu"><a href="{{ url('noticias') }}">{{ Lang::get('index.menuNoticias') }}</a></li>
+                    <li class="enlaceMenu"><a href="{{ url('contacto') }}">{{ Lang::get('index.menuContacto') }}</a></li>
                     
                 </ul>
             </div>
         </div>
-        <a class="btnSpanish" href="/espaniol"><img class="imgIdioma" src="/img/spain.png"></a>
-        <a class="btnEnglish" href="/ingles"><img class="imgIdioma" src="/img/england.png"></a>
     </div>
     <div class="container body-content animated slideInUp">
        @yield('content')
@@ -47,9 +49,9 @@
     <footer>
         <p>{{ Lang::get('index.menuCopyright') }}</p>
     </footer>
-    <script src="/js/jquery-1.10.2.min.js")></script>
-    <script src="/js/bootstrap.min.js")></script>
-    <script src="/js/jquery.bxslider.min.js")></script>
+    <script src="{{ asset('js/jquery-1.10.2.min.js') }}")></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}")></script>
+    <script src="{{ asset('js/jquery.bxslider.min.js') }}")></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyPyPG1sYvkaQl2tb2WHZl823sy7nvH00&sensor=false"></script>
     
 
@@ -91,7 +93,7 @@
 
         var contentString = '<div id="content">' +
             '<div id="headercontent" style="padding-top: 0px; margin-top: 0px; text-align:center">' +
-            '<img src="/img/logo.png" /><br><br>' +
+            '<img src="' + "{{ asset('img/logo.png') }}" + '" /><br><br>' +
             '<h3 id="firstHeading" class="firstHeading" style="padding-top: 1px; margin-top: 0px; text-align:center">' +
               'OLIAMERICA</h3></div>' +
             '<div id="bodyContent" style="padding-top: 0px; margin-top: 0px; text-align:center">' +

@@ -3,7 +3,12 @@
 @section('content')
 
 <div class="row cabeceraNosotros">
-    <h3 class="headerNosotros text-center">{{ Lang::get('contacto.titulo') }}</h3>
+    <div class="iconoCabeceraNosotros">
+      <i class="fa fa-phone"></i>
+    </div>
+    <div class="col-md-12">
+        <h3 class="headerNosotros text-center">{{ Lang::get('contacto.titulo') }}</h3>
+    </div>
 </div>
 <div class="row">
     <div class="col-md-6">

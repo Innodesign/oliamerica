@@ -34,6 +34,9 @@ Route::group(['middleware' => 'lenguaje'], function () {
     Route::get('/contacto', function () {
         return view('contacto');
     });
+    Route::get('/politica-calidad', function(){
+        return view('politica-calidad');
+    });
 
     Route::get('/entrada/{id}', function ($id) {
         $noticia = Noticia::find($id);

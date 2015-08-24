@@ -3,12 +3,18 @@
 @section('content')
 
 <div class="row cabeceraNosotros">
-    <h3 class="headerNosotros text-center">{{ Lang::get('nosotros.tituloNosotros') }}</h3>
+    <div class="iconoCabeceraNosotros">
+      <i class="fa fa-home"></i>
+    </div>
+    <div class="col-md-12">
+      <h3 class="headerNosotros text-center">
+        {{ Lang::get('nosotros.tituloNosotros') }}</h3>
+    </div>
 </div>
 
 <div class="row" style="margin-top:2em">
     <div class="col-md-3 text-center">
-        <img src="/img/aceituna.png" alt="" style="vertical-align:middle" />
+        <img src="{{ asset('img/aceituna.png') }}" alt="" style="vertical-align:middle" />
     </div>
     <div class="col-md-9">
         <p>{{ Lang::get('nosotros.parrafo1') }}</p>
@@ -17,7 +23,7 @@
     </div>
 </div>
 
-<div class="container" style="margin-top:2em; margin-bottom:2em">
+<div class="row" style="margin-top:2em; margin-bottom:2em">
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">

@@ -4,10 +4,10 @@
 <div class="row" style="margin-top:5em">
     <div class="col-md-7" style="margin-top:2.5em">
         <ul class="bxslider">
-            <li><img src="/img/slider/slider1.png" title="Proceso de Destilacion" /></li>
-            <li><img src="/img/slider/slider2.png" title="Proceso de Destilacion" /></li>
-            <li><img src="/img/slider/slider3.png" title="Proceso de Destilacion" /></li>
-            <li><img src="/img/slider/slider4.png" title="Proceso de Destilacion" /></li>
+            <li><img src="{{ asset('img/slider/slider1.png') }}" title="Proceso de Destilacion" /></li>
+            <li><img src="{{ asset('img/slider/slider2.png') }}" title="Proceso de Destilacion" /></li>
+            <li><img src="{{ asset('img/slider/slider3.png') }}" title="Proceso de Destilacion" /></li>
+            <li><img src="{{ asset('img/slider/slider4.png') }}" title="Proceso de Destilacion" /></li>
         </ul>
     </div>
     <div class="col-md-5" style="margin-top:1.5em; padding:1em">
@@ -16,20 +16,28 @@
     </div>
 </div>
 <div class="row" style="">
+    <div class="col-md-7">
+        <div class="row">
+            <div class="col-xs-12 bordeado">
+                <h3 class="subtituloLanding text-center">{{ Lang::get('index.tituloCertificaciones') }}</h3>
+            </div>
+            <div class="col-xs-6 text-center" style="margin-top:1.5em">
+                <img src="{{ asset('img/certificaciones/bpmg_opt.png') }}" alt="" />
+            </div>
+            <div class="col-xs-6 text-center" style="margin-top:1.5em">
+                <img src="{{ asset('img/certificaciones/gs1sf_opt.png') }}" alt="" style="margin-top:1.5em" />
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="row">
+            <div class="col-xs-12 premioNacional" style="">
+                <h3 class="subtituloLanding text-center">PREMIO NACIONAL A LAS MYPE 2013</h3>
+                <img src="{{ asset('img/premio.jpg') }}" style="width:100%" height="195px" alt="" />
+            </div>
+        </div>
+    </div>
     
-    <div class="col-md-3 col-xs-12 bordeado">
-        <h3 class="subtituloLanding text-center">{{ Lang::get('index.tituloCertificaciones') }}</h3>
-    </div>
-    <div class="col-md-2 col-xs-6 text-center">
-        <img src="/img/certificaciones/bpmg_opt.png" alt="" />
-    </div>
-    <div class="col-md-2 col-xs-6 text-center">
-        <img src="/img/certificaciones/gs1sf_opt.png" alt="" style="margin-top:1.5em" />
-    </div>
-    <div class="col-md-5 col-xs-12 premioNacional" style="">
-        <h3 class="subtituloLanding text-center">PREMIO NACIONAL A LAS MYPE 2013</h3>
-        <img src="/img/premio.jpg" style="width:100%" height="195px" alt="" />
-    </div>
 </div>
 <!-- <div class="row mensaje">
     <div class="col-md-8 col-md-offset-2">

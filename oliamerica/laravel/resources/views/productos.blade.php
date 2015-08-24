@@ -3,7 +3,12 @@
 @section('content')
 
 <div class="row cabeceraNosotros">
-    <h3 class="headerNosotros text-center">{{ Lang::get('productos.tituloProductos') }}</h3>
+    <div class="iconoCabeceraNosotros">
+      <i class="fa fa-shopping-cart"></i>
+    </div>
+    <div class="col-md-12">
+      <h3 class="headerNosotros text-center">{{ Lang::get('productos.tituloProductos') }}</h3>
+    </div>
 </div>
 <div class="container" style="padding-top:3em; padding-bottom:3em">
     <!-- Nav tabs -->
@@ -17,16 +22,16 @@
       <!-- Tab panes -->
       <div class="tab-content text-center">
         <div role="tabpanel" class="tab-pane fade in active" id="home">
-            <img src="/img/productos/aceituna-negra.png">
+            <img src="{{ asset('img/productos/aceituna-negra.png') }}">
         </div>
         <div role="tabpanel" class="tab-pane fade" id="profile">
-            <img src="/img/productos/aceituna-verde.png">
+            <img src="{{ asset('img/productos/aceituna-verde.png') }}">
         </div>
         <div role="tabpanel" class="tab-pane fade" id="messages">
-            <img src="/img/productos/aceituna-rellena.png">
+            <img src="{{ asset('img/productos/aceituna-rellena.png') }}">
         </div>
         <div role="tabpanel" class="tab-pane fade" id="settings">
-            <img src="/img/productos/aceite-oliva.png">
+            <img src="{{ asset('img/productos/aceite-oliva.png') }}">
         </div>
       </div>
 </div>
